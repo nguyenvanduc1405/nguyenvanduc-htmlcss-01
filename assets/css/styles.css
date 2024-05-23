@@ -64,6 +64,7 @@ a {
 .header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     height: calc(100vh - 97px);
     background-color: #E6F0FF;
@@ -113,9 +114,6 @@ a {
     padding: 13px 16px;
 }
 
-.hero {
-    margin-top: 140px;
-}
 
 .hero .info {
     width: 50%;
