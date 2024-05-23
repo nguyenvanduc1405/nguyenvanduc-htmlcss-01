@@ -53,17 +53,26 @@ a {
 }
 
 /*================header=================*/
+.header-wrap {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    padding-top: 17px;
+    background-color: #E6F0FF;
+}
 
 .header {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 97px);
     background-color: #E6F0FF;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 47px;
+    padding: 20px 0;
 }
 
 .navbar img:hover {
